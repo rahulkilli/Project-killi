@@ -1,0 +1,41 @@
+<!-- HTML file for the queen project -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script scr="queen.js"></script>
+    <title>Chess</title>
+</head>
+<body>
+    <h1>QUEEN'S CHESS</h1>
+    <p>Click below to start the queen's game</p>
+    <button class="btn" onclick="queen(direction, position)">Queen</button>
+    <style>
+        h1{
+            color: aquamarine;
+            text-align: center
+        }
+        p{
+            color: black;
+            font-size: 1.5em;
+            font-weight: 300;
+            text-align: center;
+        }
+        .btn{
+            background-color: rgb(212, 161, 84);
+            color: black;
+            border-color: black;
+            padding: 5px 10px;
+        }
+        button {
+            position: fixed;
+            margin: 0 680px;
+        }
+        .btn:hover {
+            background: lightgray;
+        }
+    </style>
+</body>
+</html>
